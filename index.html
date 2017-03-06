@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Pet</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="assets/styles.css">
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/main.js"></script>
+</head>
+<body>
+  <div id="normal" hidden>
+    <h1><span class="name"></span> the <span class="animal"></span></h1>
+    <hr>
+    <img id="image"></img>
+    <div>
+      <ul>
+        <h1>Pet Stats:</h1>
+        <li>Current Health: <span id="health">100%</span></li>
+        <li>Current Interest: <span id="interest">100%</span></li>
+      </ul>
+      <ul>
+        <h1>Actions:</h1>
+        <a href="" id="feed">Feed <span class="name">Pet</span>!</a>
+        <br><br>
+        <a href="" id="play">Play with <span class="name">Pet</span>!</a>
+      </ul>
+    </div>
+  </div>
+  <div id="gameover" hidden>
+    <h1>Game Over...</h1>
+    <h2>Reload to play again!</h2>
+  </div>
+  <footer>
+    <a id="copyright" href="https://thedragonring.me"></a>
+    <a id="reset" href="">Want to restart the game?</a>
+  </footer>
+</body>
+</html>

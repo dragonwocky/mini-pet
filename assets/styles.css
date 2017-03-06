@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+* {
+  z-index: 1;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#normal, #gameover {
+  width: 100%;
+  height: 100%;
+}
+
+#gameover h1 {
+  text-align: center;
+  font: 175px 'Architects Daughter', cursive;
+}
+
+#gameover h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 40px arial, sans-serif;
+}
+
+[hidden] {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font: 75px 'Architects Daughter', cursive;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media screen and (min-width: 816px) {
+
+  img {
+    width: 50%;
+    float: left;
+    margin: 10px;
+    display: block;
+    border-radius: 5px;
+  }
+
+  div {
+    width: 45%;
+    float: right;
+    margin: 10px;
+  }
+
+}
+
+@media screen and (max-width: 815px) {
+
+  img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+  }
+
+  div {
+    width: 100%;
+    margin: 10px;
+  }
+
+}
+
+ul h1 {
+  text-align: left;
+  font: 40px arial, sans-serif;
+}
+
+ul li {
+  text-align: left;
+  margin-left: 30px;
+  list-style-type: none;
+  font: 15px arial, sans-serif;
+}
+
+ul a {
+  color: #fff;
+  padding: 5px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #000;
+  background-color: #a61419;
+  font: 15px arial, sans-serif;
+}
+
+footer {
+  bottom: 1%;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+}
+
+footer #copyright {
+  left: 1%;
+  color: #000;
+  text-align: left;
+  position: absolute;
+  text-decoration: none;
+  font: 15px sans-serif;
+  text-transform: uppercase;
+}
+
+footer #reset {
+  right: 1%;
+  color: #000;
+  text-align: left;
+  position: absolute;
+  text-decoration: none;
+  font: 15px sans-serif;
+  text-transform: uppercase;
+}
